@@ -98,6 +98,58 @@ a{text-decoration:none; color:inherit;}
 .cta-btn{background:#facc15;color:#0a1628;font-weight:700;padding:.85rem 2rem;border-radius:30px;display:inline-block; margin-top:1.3rem; transition:.3s;}
 .cta-btn:hover{background:#d4a209;}
 
+
+/* CTA Box */
+.cta-box {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+/* CTA Buttons */
+.cta-btn {
+  padding: 12px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+/* COLORS */
+.call {
+  background: #2563eb; /* Blue */
+}
+.call:hover {
+  background: #1e40af;
+}
+
+.whatsapp {
+  background: #25d366; /* WhatsApp Green */
+}
+.whatsapp:hover {
+  background: #1da851;
+}
+
+.email {
+  background: #f97316; /* Orange */
+}
+.email:hover {
+  background: #c2410c;
+}
+
+/* Responsive */
+@media(max-width: 500px) {
+  .cta-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
 /* Footer */
 .site-footer{background:#0a1628;color:#d0d7de;padding:2.2rem 0 1.3rem;font-size:.9rem;}
 .footer-grid{display:flex; justify-content:space-between; flex-wrap:wrap; gap:2rem;}
@@ -116,3 +168,4 @@ a{text-decoration:none; color:inherit;}
   .nav-desktop{display:none;}
   .hamburger{display:block;}
 }
+
